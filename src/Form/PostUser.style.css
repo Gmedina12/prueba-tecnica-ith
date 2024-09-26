@@ -1,0 +1,124 @@
+body{
+    box-sizing: border-box;
+    /* background-color:rgb(142, 87, 213); */
+    font-family: sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-content: center;
+}
+
+input{
+    margin: 10px;
+    border-radius: 50px;
+    padding: 15px;
+    width: 250px;
+    border: 2px solid rgb(220, 170, 255);
+}
+
+input:focus{
+    outline: 2px solid rgb(144, 0, 255);
+    
+}
+
+
+
+label{
+    color: rgb(127, 36, 187);
+    font-weight: 600;
+
+}
+
+
+textarea{
+    border-radius: 50px;
+    border: 3px solid rgb(142, 1, 207);
+    margin: 15px;
+    padding: 10px;
+}
+.enviar{
+    font-size: 20px;
+    color: rgb(141, 11, 255);
+    border: 3px solid;
+    margin-left: 25px;
+    margin-top: 90px;
+    transition: .3s;
+    font-weight: bold;
+    background-color: rgba(208, 155, 255, 0.346);
+    
+}
+
+.enviar:hover{
+    background-color: rgb(142, 1, 207);
+    color: white;
+    border: 3px solid rgb(142, 1, 207);
+
+}
+
+.container_terms{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.terminos_check{
+    display: block;
+    width: 20px;
+}
+
+.terminos_check:focus{
+    outline: none;
+   
+}
+
+
+
+.terminos{
+    font-size: 13px;
+    user-select: none;
+}
+
+fieldset{
+    border: 4px solid transparent;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    padding: 50px;
+    box-shadow: 15px 3px 20px #0004,
+                -15px 0px 30px #0002;
+    position: relative;
+    transition: border-color 0.9 ease;
+}
+
+fieldset:focus-within{
+    border-color: rgb(142, 1, 207);
+}
+
+
+legend{
+    color: rgba(255, 255, 255, 0.991);
+    margin-left: 25px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: rgba(126, 23, 210, 0.869);
+    border-radius: 50px;
+    border: 3px solid rgb(142, 1, 207);
+    box-shadow: 3px 0px 7px #0003;
+    position: relative;
+    text-transform: uppercase;       
+    
+}
+
+
+
+
+.icono_animate{
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+   
+}
+
+.icono_animate img{
+    width: 60px;
+}
